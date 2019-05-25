@@ -3,13 +3,10 @@ import {DropdownItem, DropdownMenu, DropdownToggle, UncontrolledDropdown} from "
 
 const UserMenu = ({user, logout}) => (
     <UncontrolledDropdown nav inNavbar>
-        <DropdownToggle nav caret>
-            Hello, {user.username}
+        <DropdownToggle nav caret >
+            Hello, {user.username}!
         </DropdownToggle>
-        <DropdownMenu right>
-            <DropdownItem>
-                Show profile
-            </DropdownItem>
+        <DropdownMenu right >
             <DropdownItem divider />
             <DropdownItem onClick={logout}>
                 Logout
