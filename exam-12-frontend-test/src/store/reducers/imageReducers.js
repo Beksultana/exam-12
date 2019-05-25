@@ -1,7 +1,8 @@
-import {IMG_FETCH_SUCCESS} from "../actions/imageActions";
+import {IMG_FETCH_SUCCESS, IMG_ONE_FETCH_SUCCESS} from "../actions/imageActions";
 
 const initialSate = {
-    images: []
+    images: [],
+    image: []
 };
 
 const imageReducer = (state = initialSate, action) => {
@@ -9,6 +10,10 @@ const imageReducer = (state = initialSate, action) => {
         case IMG_FETCH_SUCCESS:
             return {
                 ...state, images: action.images
+            };
+        case IMG_ONE_FETCH_SUCCESS:
+            return {
+                ...state, image: action.img
             };
         default:
             return state;

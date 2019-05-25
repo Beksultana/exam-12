@@ -1,29 +1,30 @@
 import React, {Component, Fragment} from 'react';
-import {fetchImage} from "../../store/actions/imageActions";
+import {fetchImages} from "../../store/actions/imageActions";
 import {connect} from "react-redux";
 import {Card, CardBody} from "reactstrap";
+import './Images.css';
+import {Link} from "react-router-dom";
 
-class Image extends Component {
+class Images extends Component {
 
     componentDidMount() {
-        this.props.fetchImage(this.props.match.params.id)
-    };
+        this.props.fetchImages()
+    }
 
     render() {
 
-        let user = '';
-
-        const images = this.props.image ? this.props.image.map(img => {
-            user = img.user.username;
+        const images = this.props.images ? this.props.images.map(img => {
+            console.log(img);
             return (
                 <div key={img._id} className="imgItem">
                     <Card>
                         <img style={{width: "350px", height: "250px"}}
-                             src={"http://localhost:8000/uploads/" + img.img}
-                             alt="Card image cap"
+                            src={"http://localhost:8000/uploads/" + img.img}
+                            alt="Card image cap"
                         />
                         <CardBody>
                             <h6><strong>{img.title}</strong></h6>
+                            <span>By: <Link to={"/images/"+ img.user._id}>{img.user.username}</Link></span>
                         </CardBody>
                     </Card>
                 </div>
@@ -32,8 +33,6 @@ class Image extends Component {
 
         return (
             <Fragment>
-                <h3><strong>{user} gallery</strong></h3>
-                <hr/>
                 <div className="MainPhotoInfoBlock">
                     {images}
                 </div>
@@ -43,11 +42,11 @@ class Image extends Component {
 }
 
 const mapStateToProps = state => ({
-    image: state.images.image
+    images: state.images.images
 });
 
 const mapDispatchToProps = dispatch => ({
-   fetchImage: id => dispatch(fetchImage(id))
+    fetchImages: () => dispatch(fetchImages())
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Image);
+export default connect(mapStateToProps, mapDispatchToProps)(Images);
