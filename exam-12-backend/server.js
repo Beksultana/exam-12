@@ -4,6 +4,7 @@ const config = require('./config');
 const cors = require('cors');
 
 const users = require('./app/users');
+const images = require('./app/images');
 
 const app = express();
 
@@ -16,6 +17,7 @@ const port = 8000;
 mongoose.connect(config.dbUrl, config.mongoOptions).then(() => {
 
     app.use('/users', users);
+    app.use('/images', images);
 
     app.listen(port, () => {
         console.log(`Server started on ${port} port!`);

@@ -2,25 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97351867-8a96-40f2-8077-f2de16a08cf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/Routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/axios-api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/components/UI/Form/FormElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/components/UI/Toolbar/Menus/AnonymousMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/components/UI/Toolbar/Menus/UserMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/components/UI/Toolbar/Toolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/containers/Login/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/containers/Register/Regiser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/store/actions/usersActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/store/configerStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/store/localStorage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/store/reducers/usersReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Images.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/fox.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/containers/Image/Image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/containers/Image/Image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/store/actions/imageActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/store/reducers/imageReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures.js" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam-12-frontend-test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam-12-frontend-test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam-12-frontend-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam-12-frontend-test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam-12-frontend-test/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam-12-frontend-test/src/store/configerStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../exam-12-frontend-test/src/store/configerStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Exam-88" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exam-88" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Homework-66" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework-66" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Homework-75/homework-75" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework-75/homework-75" afterDir="false" />
@@ -68,71 +65,48 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="6" />
-          <entry key="json" value="1" />
+          <entry key="gitignore" value="4" />
+          <entry key="js" value="8" />
+          <entry key="json" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="8" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="5" />
+          <entry key="gitignore" value="44" />
+          <entry key="js" value="691" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="5" />
+          <entry key="JavaScript" value="691" />
+          <entry key="PLAIN_TEXT" value="44" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixtures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middleware/auth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/User.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="-168">
+              <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -142,6 +116,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/images.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Images.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -158,7 +150,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -166,9 +158,12 @@
         <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/app/users.js" />
         <option value="$PROJECT_DIR$/middleware/auth.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/models/User.js" />
+        <option value="$PROJECT_DIR$/models/Images.js" />
+        <option value="$PROJECT_DIR$/app/images.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/public/uploads/.gitignore" />
         <option value="$PROJECT_DIR$/fixtures.js" />
       </list>
     </option>
@@ -210,6 +205,22 @@
               <item name="exam-12-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="exam-12-backend" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="exam-12-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-12-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-12-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-12-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-12-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-12-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -248,12 +259,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558764876812</updated>
-      <workItem from="1558764878443" duration="1822000" />
+      <workItem from="1558764878443" duration="5286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1822000" />
+    <option name="totallyTimeSpent" value="5286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="737" extended-state="6" />
@@ -265,10 +276,10 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.15823817" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -300,10 +311,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/models/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="391">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -314,6 +332,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/Images.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixtures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -321,17 +360,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/User.js">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixtures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="3" />
         </state>
       </provider>
     </entry>

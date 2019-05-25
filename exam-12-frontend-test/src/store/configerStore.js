@@ -3,6 +3,8 @@ import {applyMiddleware, combineReducers, compose, createStore} from "redux";
 import {connectRouter, routerMiddleware} from "connected-react-router";
 
 import usersReducer from "./reducers/usersReducer";
+import imagesReducer from "./reducers/imageReducers";
+
 import thunkMiddleware from "redux-thunk";
 import {loadState, saveState} from "./localStorage";
 import axios from '../axios-api';
@@ -11,7 +13,8 @@ export const history = createBrowserHistory();
 
 const rootReducer = combineReducers({
     router: connectRouter(history),
-    users: usersReducer
+    users: usersReducer,
+    images: imagesReducer
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

@@ -3,13 +3,15 @@ import { Route, Switch} from "react-router-dom";
 
 import Register from "./containers/Register/Regiser";
 import Login from "./containers/Login/Login";
+import Image from "./containers/Image/Image";
 
 
 const Routes = () => {
     return (
         <Switch>
-            <Route path="/register" exact component={Register} />
-            <Route path="/login" exact component={Login} />
+            <Route path="/" exact component={Image} />
+            <Route path="/register" component={Register} />
+            <Route path="/login" component={Login} />
         </Switch>
     );
 };

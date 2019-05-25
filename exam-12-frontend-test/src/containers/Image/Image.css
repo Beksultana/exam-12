@@ -1,0 +1,13 @@
+.MainPhotoInfoBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.imgItem {
+    width: 350px;
+    height: auto;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 3px 4px 8px #ccc;
+    text-align: center;
+}
